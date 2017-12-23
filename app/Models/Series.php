@@ -3,13 +3,12 @@
 namespace App\Models;
 
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Series
- * @package App\Models
+ * Class Series.
  * @mixin Model
  * @mixin Builder
  *
@@ -30,7 +29,7 @@ class Series extends Model
      * @var array
      */
     protected $fillable = [
-        'title', 'description', 'image'
+        'title', 'description', 'image',
     ];
 
     /**

@@ -17,6 +17,6 @@ use Faker\Generator as Faker;
 $factory->define(App\Models\Series::class, function (Faker $faker) {
     return [
         'title' => $faker->text(127),
-        'description' => $faker->paragraph
+        'description' => $faker->paragraph,
     ];
 });

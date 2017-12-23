@@ -2,10 +2,10 @@
 
 namespace Tests;
 
-use App\Models\Episode;
-use App\Models\Series;
 use Auth;
 use App\Models\User;
+use App\Models\Series;
+use App\Models\Episode;
 use Tests\Traits\CreatesApplication;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 
