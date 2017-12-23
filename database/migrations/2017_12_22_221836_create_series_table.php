@@ -15,10 +15,10 @@ class CreateSeriesTable extends Migration
     {
         Schema::create('series', function (Blueprint $table) {
             $table->increments('id');
-            /** @noinspection PhpUndefinedMethodInspection */
+            /* @noinspection PhpUndefinedMethodInspection */
             $table->string('title', 127)->index();
             $table->text('description');
-            /** @noinspection PhpUndefinedMethodInspection */
+            /* @noinspection PhpUndefinedMethodInspection */
             $table->string('image', 127)->nullable();
             $table->timestamps();
         });

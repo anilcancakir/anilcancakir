@@ -10,17 +10,17 @@ return [
 
     'series' => [
         'index' => [
-            'title' => 'Son Seriler'
+            'title' => 'Son Seriler',
         ],
         'show' => [
-            'title' => ':title Serisi'
-        ]
+            'title' => ':title Serisi',
+        ],
     ],
 
     'episode' => [
         'show' => [
-            'title' => ':episode. Bölüm - :title'
-        ]
+            'title' => ':episode. Bölüm - :title',
+        ],
     ],
 
     'auth' => [
