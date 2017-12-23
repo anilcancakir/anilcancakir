@@ -17,13 +17,13 @@ class CreateEpisodesTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('series_id');
             $table->unsignedSmallInteger('episode');
-            /** @noinspection PhpUndefinedMethodInspection */
+            /* @noinspection PhpUndefinedMethodInspection */
             $table->string('title', 127)->index();
             $table->text('description');
             $table->string('video', 127);
             $table->timestamps();
 
-            /** @noinspection PhpUndefinedMethodInspection */
+            /* @noinspection PhpUndefinedMethodInspection */
             $table->foreign('series_id')
                 ->references('id')->on('series')
                 ->onUpdate('cascade')

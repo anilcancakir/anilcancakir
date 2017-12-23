@@ -22,7 +22,6 @@ Route::group(['prefix' => 'series'], function () {
     Route::get('{series}/episodes/{episode}', 'EpisodeController@show')->name('episode.show');
 });
 
-
 // Auth routes...
 Route::group(['prefix' => 'auth'], function () {
     // Authentication Routes...

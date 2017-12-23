@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Series;
-use Illuminate\Http\Request;
 use SEO;
+use App\Models\Series;
 
 class SeriesController extends Controller
 {
@@ -21,7 +20,7 @@ class SeriesController extends Controller
             ->paginate();
 
         return view('series.index', [
-            'series' => $series
+            'series' => $series,
         ]);
     }
 
@@ -34,7 +33,7 @@ class SeriesController extends Controller
     public function show(Series $series)
     {
         $this->setSeo('series.show', [
-            'title' => $series->title
+            'title' => $series->title,
         ]);
 
         SEO::setDescription($series->description);
@@ -42,7 +41,7 @@ class SeriesController extends Controller
         $series->load('episodes');
 
         return view('series.show', [
-            'series' => $series
+            'series' => $series,
         ]);
     }
 }
