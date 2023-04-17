@@ -17,5 +17,4 @@ I try to maintain some of my open-source projects and write good tutorials when 
 - Medium: [medium.com/@anilcan](https://medium.com/@anilcan)
 - Mail: [anilcan.cakir@gmail.com](mailto:anilcan.cakir@gmail.com)
 
-[![Anilcan's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anilcancakir&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anilcancakir)
-[![Anilcan's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=anilcancakir&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anilcancakir)
+[![Anilcan's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anilcancakir&show_icons=true&theme=dark)](https://github.com/anilcancakir)
