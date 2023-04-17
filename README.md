@@ -1,8 +1,8 @@
 ### Hi there 👋,
 
-I'm **Anilcan**, software developer with knowledge of **PHP**, **Node.js**, **C#**, **Dart**, **Javascript**.
+I'm **Anilcan**, a software developer with knowledge of **PHP**, **Node.js**, **C#**, **Dart**, **Javascript**.
 
-I like back-end stuff like **Laravel**, **Node.js**, **Symfony** and **Vue.js**, **Tailwind** for the frontend. Also, i like to develop mobile applications with **Flutter**.
+I like back-end stuff like **Laravel**, **Node.js**, **Symfony** and **Vue.js**, **Tailwind** for the frontend. Also, I like to develop mobile applications with **Flutter**.
 
 I try to maintain some of my open-source projects and write good tutorials when I have time.
 
