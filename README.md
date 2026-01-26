@@ -1,20 +1,54 @@
-### Hi there 👋,
+# Hi, I'm Anılcan! 👋
 
-I'm **Anilcan**, a software developer with knowledge of **PHP**, **Node.js**, **C#**, **Dart**, **Javascript**.
+**Lead Developer** & **AI Enthusiast** | İzmir, Türkiye 🇹🇷
 
-I like back-end stuff like **Laravel**, **Node.js**, **Symfony** and **Vue.js**, **Tailwind** for the frontend. Also, I like to develop mobile applications with **Flutter**.
+I've been living in the terminal since 2014. Over the last 12+ years, my role has evolved significantly: I used to write every single line of code myself; now, I architect systems and train AI agents to write them for me.
 
-I try to maintain some of my open-source projects and write good tutorials when I have time.
+I love being on the **production** side of technology. Currently, I am leading e-commerce development at **[The Despatch Company](https://thedespatchcompany.com)**, while aiming to build the future of developer experience with **LLMs**, **Agentic Workflows**, and the **FlutterSDK** ecosystem.
 
-### 🌟 My open-source projects
-- [Boilerplate project for Flutter](https://github.com/anilcancakir/flutter-boilerplate): Start flutter coding the base boilerplate with Routes, Auth and Http services... I'm taking care of the archticture for small projects.
-- [dynamic-home-example-flutter](https://github.com/anilcancakir/dynamic-home-example-flutter): Dynamic homepage example code for my medium story.
-- [Flutter Internationalization Example](https://github.com/anilcancakir/flutter-internationalization): In this example, Flutter can be internationalization by using the json files. This is a basic internationalization example for Flutter.
-- [Lorem Ipsum Generator Chrome extenstion](https://github.com/anilcancakir/lorem-ipsum-generator-chrome-extension): The Lorem Ipsum Generator extension can generate words, sentences or paragraphs by your selection. It supports the storing the last selection options. So, if you open the extension again, you can continue with last options. It uses Vue.js and Vuex.
+---
 
-### ☕ Stay in touch!
-- LinkedIn: [linkedin.com/in/anilcancakir](https://www.linkedin.com/in/anilcancakir/)
-- Medium: [medium.com/@anilcan](https://medium.com/@anilcan)
-- Mail: [anilcan.cakir@gmail.com](mailto:anilcan.cakir@gmail.com)
+### 🧠 AI & Open Source Focus
 
-[![Anilcan's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anilcancakir&show_icons=true&theme=dark)](https://github.com/anilcancakir)
+Lately, I'm dedicating my time to redefining Developer Experience (DX) through Artificial Intelligence. I build tools that empower AI agents to be more capable:
+
+* **[skillsmp-mcp-server](https://github.com/anilcancakir/skillsmp-mcp-server)** A Model Context Protocol (MCP) server based on the SkillsMP API, allowing AI agents to discover and learn new capabilities on the fly.
+* **[claude-code-plugins](https://github.com/anilcancakir/claude-code-plugins)** A suite of plugins and toolsets I developed to supercharge the Claude Code ecosystem.
+* **[my-claude-code](https://github.com/anilcancakir/my-claude-code):** My personal configuration and workflows for an AI-native development environment.
+
+---
+
+### 🚀 FlutterSDK: Ship Your Vision.
+
+I am architecting a unified "Operating System" for the fragmented Flutter world—combining Frameworks, Cloud, and AI under one roof.
+
+**Pillar I: Intelligence & Creation**
+* **✨ [FlutterSDK AI](https://fluttersdk.com)** `Closed Beta` <br> Not just another LLM. A generative engine that understands the Magic & Wind architecture to turn prompts into production apps.
+* **⚡️ [FlutterSDK Editor](https://editor.fluttersdk.com)** `Alpha Test` <br> A cloud-based IDE offering instant previews and deep integration with the ecosystem.
+
+**Pillar II: Frameworks (Open Source)**
+* **🔵 [Wind UI](https://wind.fluttersdk.com)** `Alpha Test (v1)` <br> The ticket out of "Widget Hell." A utility-first UI library inspired by Tailwind CSS principles.
+* **🟣 [Magic](https://magic.fluttersdk.com)** `Closed Beta` <br> Laravel-like elegance for Flutter. A full-stack framework featuring Eloquent ORM and Dependency Injection.
+
+**Pillar III: Infrastructure & Community**
+* **☁️ Cloud Kit (BaaS) / Academy / Jobs** `Coming Soon 🚧` <br> The backend infrastructure and community platforms are currently under construction.
+
+---
+
+### ⚡️ The Offline World
+
+When I step away from the screen, I keep the "Maker" spirit alive in the physical world:
+
+* **Maker Spirit:** I design my own PCBs, solder circuits, and love getting my hands dirty with electronics.
+* **Home Automation:** My house doesn't just switch lights on; it talks to me. (Powered by Home Assistant & ESPHome).
+* **3D Design & Print:** If I need a part, I don't buy it. I model it in Fusion 360 and print it.
+
+---
+
+### 📫 Let's Connect
+
+Whether you want to discuss the future of AI coding or check out my projects:
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/anilcancakir/)
+[<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://medium.com/@anilcan)
+[<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />](https://anilcancakir.com)
