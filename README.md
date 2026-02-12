@@ -1,6 +1,6 @@
 # Hi, I'm Anılcan! 👋
 
-**Lead Developer** & **AI Enthusiast** | İzmir, Türkiye 🇹🇷
+**Software Consultant** & **AI Enthusiast** | İzmir, Türkiye 🇹🇷
 
 I've been living in the terminal since 2014. Over the last 12+ years, my role has evolved significantly: I used to write every single line of code myself; now, I architect systems and train AI agents to write them for me.
 
@@ -8,30 +8,13 @@ I love being on the **production** side of technology. Currently, I am leading e
 
 ---
 
-### 🧠 AI & Open Source Focus
+### Open Source Focus
 
-Lately, I'm dedicating my time to redefining Developer Experience (DX) through Artificial Intelligence. I build tools that empower AI agents to be more capable:
-
+* **[wind](https://github.com/fluttersdk/wind)** A Flutter plugin designed with a utility-first approach, inspired by Tailwind CSS, for building responsive, modular, and efficient UI components.
 * **[skillsmp-mcp-server](https://github.com/anilcancakir/skillsmp-mcp-server)** A Model Context Protocol (MCP) server based on the SkillsMP API, allowing AI agents to discover and learn new capabilities on the fly.
+* **[laravel-ai-sdk-skills](https://github.com/anilcancakir/laravel-ai-sdk-skills)** A skill system for Laravel AI SDK agents. Define reusable AI capabilities with SKILL.md files.
 * **[claude-code-plugins](https://github.com/anilcancakir/claude-code-plugins)** A suite of plugins and toolsets I developed to supercharge the Claude Code ecosystem.
-* **[my-claude-code](https://github.com/anilcancakir/my-claude-code):** My personal configuration and workflows for an AI-native development environment.
-
----
-
-### 🚀 FlutterSDK: Ship Your Vision.
-
-I am architecting a unified "Operating System" for the fragmented Flutter world—combining Frameworks, Cloud, and AI under one roof.
-
-**Pillar I: Intelligence & Creation**
-* **✨ [FlutterSDK AI](https://fluttersdk.com)** `Closed Beta` <br> Not just another LLM. A generative engine that understands the Magic & Wind architecture to turn prompts into production apps.
-* **⚡️ [FlutterSDK Editor](https://editor.fluttersdk.com)** `Alpha Test` <br> A cloud-based IDE offering instant previews and deep integration with the ecosystem.
-
-**Pillar II: Frameworks (Open Source)**
-* **🔵 [Wind UI](https://wind.fluttersdk.com)** `Alpha Test (v1)` <br> The ticket out of "Widget Hell." A utility-first UI library inspired by Tailwind CSS principles.
-* **🟣 [Magic](https://magic.fluttersdk.com)** `Closed Beta` <br> Laravel-like elegance for Flutter. A full-stack framework featuring Eloquent ORM and Dependency Injection.
-
-**Pillar III: Infrastructure & Community**
-* **☁️ Cloud Kit (BaaS) / Academy / Jobs** `Coming Soon 🚧` <br> The backend infrastructure and community platforms are currently under construction.
+* **[my-claude-code](https://github.com/anilcancakir/my-claude-code)** My personal configuration and workflows for an AI-native development environment.
 
 ---
 
