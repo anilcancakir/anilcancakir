@@ -1,37 +1,100 @@
-# Hi, I'm Anılcan! 👋
+**I build Flutter and Laravel developer tools that an AI coding agent can drive:** a utility-first styling framework, an end-to-end driver, a runtime inspector, and a read-only MCP server for Laravel.
 
-**Software Consultant** & **AI Enthusiast** | İzmir, Türkiye 🇹🇷
+12+ years shipping production software, and since 2023 building production systems on top of LLMs and agents. I lead e-commerce engineering at [The Despatch Company](https://thedespatchcompany.com) and maintain the [@fluttersdk](https://github.com/fluttersdk) ecosystem, from Izmir.
 
-I've been living in the terminal since 2014. Over the last 12+ years, my role has evolved significantly: I used to write every single line of code myself; now, I architect systems and train AI agents to write them for me.
+## Wind: Tailwind CSS for Flutter
 
-I love being on the **production** side of technology. Currently, I am leading e-commerce development at **[The Despatch Company](https://thedespatchcompany.com)**, while aiming to build the future of developer experience with **LLMs**, **Agentic Workflows**, and the **FlutterSDK** ecosystem.
+```dart
+// Flutter native
+Container(
+  padding: EdgeInsets.all(24),
+  margin: EdgeInsets.symmetric(horizontal: 16),
+  decoration: BoxDecoration(
+    color: Colors.white,
+    borderRadius: BorderRadius.circular(12),
+    boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 10, offset: Offset(0, 4))],
+  ),
+  child: Text('Hello', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+)
 
----
+// Wind
+WDiv(
+  className: 'p-6 mx-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg',
+  child: WText('Hello', className: 'text-xl font-bold'),
+)
+```
 
-### Open Source Focus
+The Flutter team looked at the same problem. In the [Decorators experiment](https://github.com/flutter/flutter/issues/161345) they wrote that "the source code can be a bit verbose due to heavy nesting", ran 3 rounds of user studies with 8 participants, and closed it with "we've decided not to move forward with the decorators experiment". Their experiment chained modifiers onto a widget. Wind takes the other route: utility strings parsed into a widget tree, so the styling stays declarative and the tree stays flat.
 
-* **[wind](https://github.com/fluttersdk/wind)** A Flutter plugin designed with a utility-first approach, inspired by Tailwind CSS, for building responsive, modular, and efficient UI components.
-* **[skillsmp-mcp-server](https://github.com/anilcancakir/skillsmp-mcp-server)** A Model Context Protocol (MCP) server based on the SkillsMP API, allowing AI agents to discover and learn new capabilities on the fly.
-* **[laravel-ai-sdk-skills](https://github.com/anilcancakir/laravel-ai-sdk-skills)** A skill system for Laravel AI SDK agents. Define reusable AI capabilities with SKILL.md files.
-* **[claude-code-plugins](https://github.com/anilcancakir/claude-code-plugins)** A suite of plugins and toolsets I developed to supercharge the Claude Code ecosystem.
-* **[my-claude-code](https://github.com/anilcancakir/my-claude-code)** My personal configuration and workflows for an AI-native development environment.
+```bash
+flutter pub add fluttersdk_wind
+```
 
----
+[![pub downloads](https://img.shields.io/pub/dm/fluttersdk_wind?label=downloads&color=2ea44f)](https://pub.dev/packages/fluttersdk_wind)
+[![pub points](https://img.shields.io/pub/points/fluttersdk_wind?label=pub%20points)](https://pub.dev/packages/fluttersdk_wind/score)
+[![pub version](https://img.shields.io/pub/v/fluttersdk_wind?label=version)](https://pub.dev/packages/fluttersdk_wind)
 
-### ⚡️ The Offline World
+W-prefix widgets, a parser per utility family, and a themeable token set. [Documentation](https://fluttersdk.com/wind) · [pub.dev](https://pub.dev/packages/fluttersdk_wind)
 
-When I step away from the screen, I keep the "Maker" spirit alive in the physical world:
+Your agent gets the same docs I do. One command installs the skills, and `mcp.fluttersdk.com` answers `search-docs` over streamable HTTP, public and no auth, so the agent looks the grammar up instead of guessing it.
 
-* **Maker Spirit:** I design my own PCBs, solder circuits, and love getting my hands dirty with electronics.
-* **Home Automation:** My house doesn't just switch lights on; it talks to me. (Powered by Home Assistant & ESPHome).
-* **3D Design & Print:** If I need a part, I don't buy it. I model it in Fusion 360 and print it.
+```
+/plugin marketplace add fluttersdk/ai
+/plugin install fluttersdk@fluttersdk-marketplace
+```
 
----
+## Tools an agent can operate
 
-### 📫 Let's Connect
+| Package | What it is | Downloads | Quality |
+| --- | --- | --- | --- |
+| [**Dusk**](https://github.com/fluttersdk/dusk) | End-to-end driver. Taps, snaps and screenshots a live app over VM Service, the way Playwright drives a browser. Exposed to the agent over MCP. | [![pub downloads](https://img.shields.io/pub/dm/fluttersdk_dusk?label=&color=2ea44f)](https://pub.dev/packages/fluttersdk_dusk) | [![pub points](https://img.shields.io/pub/points/fluttersdk_dusk?label=)](https://pub.dev/packages/fluttersdk_dusk/score) |
+| [**Telescope**](https://github.com/fluttersdk/telescope) | Passive runtime inspector. Captures HTTP, logs, exceptions and DB queries and surfaces them over MCP. Debug-only, zero release overhead. | [![pub downloads](https://img.shields.io/pub/dm/fluttersdk_telescope?label=&color=2ea44f)](https://pub.dev/packages/fluttersdk_telescope) | [![pub points](https://img.shields.io/pub/points/fluttersdk_telescope?label=)](https://pub.dev/packages/fluttersdk_telescope/score) |
 
-Whether you want to discuss the future of AI coding or check out my projects:
+An agent writing Flutter code cannot see the app it just built. It guesses at the widget tree, never taps a button, and never reads the exception it caused. Dusk gives it hands, Telescope gives it eyes.
 
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/anilcancakir/)
-[<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://medium.com/@anilcan)
-[<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />](https://anilcancakir.com)
+Both are built on [**Artisan**](https://github.com/fluttersdk/artisan), a composable Dart CLI framework and stdio MCP server. [**Magic**](https://github.com/fluttersdk/magic), a Laravel-style app framework for Flutter, is in alpha.
+
+## Laravel
+
+[**laravel-agent-mcp**](https://github.com/anilcancakir/laravel-agent-mcp) gives Claude Code and Cursor read-only access to your running app: schema, logs, queue, cache, routes, config. Twenty-five tools read. One executes, and it ships denied: an empty allowlist, exact command matching with no wildcards, and option-level default-deny, because `route:list` and `migrate --force` are not the same risk.
+
+An agent writing a migration has never seen your schema. It invents column names, assumes relationships your tables dropped, and reasons about a queue it cannot observe. The result is plausible, confident and wrong.
+
+```bash
+composer require anilcancakir/laravel-agent-mcp
+```
+
+[![packagist downloads](https://img.shields.io/packagist/dm/anilcancakir/laravel-agent-mcp?label=downloads&color=2ea44f)](https://packagist.org/packages/anilcancakir/laravel-agent-mcp)
+[![packagist version](https://img.shields.io/packagist/v/anilcancakir/laravel-agent-mcp?label=version)](https://packagist.org/packages/anilcancakir/laravel-agent-mcp)
+
+[**laravel-ai-sdk-skills**](https://github.com/anilcancakir/laravel-ai-sdk-skills) is a skill system for Laravel AI SDK agents. Define capabilities as `SKILL.md` files and load them by progressive disclosure instead of bloating the context window.
+
+[![packagist downloads](https://img.shields.io/packagist/dm/anilcancakir/laravel-ai-sdk-skills?label=downloads&color=2ea44f)](https://packagist.org/packages/anilcancakir/laravel-ai-sdk-skills)
+[![packagist version](https://img.shields.io/packagist/v/anilcancakir/laravel-ai-sdk-skills?label=version)](https://packagist.org/packages/anilcancakir/laravel-ai-sdk-skills)
+
+## Claude Code
+
+[**ac**](https://github.com/anilcancakir/claude-code) puts a file between your request and the first edit. It interviews you for intent, writes the plan to disk, has an adversarial reviewer read it cold, then executes wave by wave with a model tier per step and four verification layers before anything is called done.
+
+```
+/plugin marketplace add anilcancakir/claude-code
+/plugin install ac@ac
+```
+
+## Selected writing
+
+- [Introducing Wind: Utility-First Styling for Flutter, Inspired by Tailwind CSS](https://medium.com/@anilcan/introducing-wind-utility-first-styling-for-flutter-inspired-by-tailwind-css-0a2f440f4161)
+- [Level Up Your Laravel AI Agents with Modular Skills](https://medium.com/@anilcan/level-up-your-laravel-ai-agents-with-modular-skills-39da3fe9fe4b)
+- [Forms in Flutter](https://medium.com/@anilcan/forms-in-flutter-6e1364eafdb5)
+- [Flutter Internationalization by Using JSON Files](https://medium.com/@anilcan/flutter-internationalization-by-using-json-files-f91468d86df0)
+
+## Get in touch
+
+I take on consulting work in Flutter architecture. Reach me at [anilcan.cakir@gmail.com](mailto:anilcan.cakir@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/anilcancakir/).
+
+<details>
+<summary>Away from the screen</summary>
+
+I design my own PCBs and solder them, run the house on Home Assistant and ESPHome, and print the part in Fusion 360 rather than buy it.
+
+</details>
