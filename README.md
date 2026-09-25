@@ -1,6 +1,6 @@
 **I build Flutter and Laravel developer tools that an AI coding agent can drive:** a utility-first styling framework, an end-to-end driver, a runtime inspector, and a read-only MCP server for Laravel.
 
-12+ years shipping production software, and since 2023 building production systems on top of LLMs and agents. I'm Head of Engineering & AI at [Yorkshire Trading Company](https://www.yorkshiretrading.com), where I run e-commerce for its own brands, [Yorkshire Trading](https://www.yorkshiretrading.com) and [Rydale](https://www.rydale.com). I also maintain the [@fluttersdk](https://github.com/fluttersdk) ecosystem, from Izmir.
+12+ years shipping production software, and since 2023 building production systems on top of LLMs and agents. I lead engineering and AI at [Yorkshire Trading Company](https://www.yorkshiretrading.com), where I run e-commerce for its own brands, [Yorkshire Trading](https://www.yorkshiretrading.com) and [Rydale](https://www.rydale.com). I also maintain the [@fluttersdk](https://github.com/fluttersdk) ecosystem, from Izmir.
 
 ## Wind: Tailwind CSS for Flutter
 
