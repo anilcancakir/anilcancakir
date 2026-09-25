@@ -56,7 +56,7 @@ Both are built on [**Artisan**](https://github.com/fluttersdk/artisan), a compos
 
 ## Laravel
 
-[**laravel-agent-mcp**](https://github.com/anilcancakir/laravel-agent-mcp) gives Claude Code and Cursor read-only access to your running app: schema, logs, queue, cache, routes, config. Twenty-five tools read. One executes, and it ships denied: an empty allowlist, exact command matching with no wildcards, and option-level default-deny, because `route:list` and `migrate --force` are not the same risk.
+[**laravel-agent-mcp**](https://github.com/anilcancakir/laravel-agent-mcp) gives Claude Code and Cursor read-only access to your running app: schema, logs, queue, cache, routes, config. Twenty-four tools read. One executes, and it ships denied: an empty allowlist, exact command matching with no wildcards, and option-level default-deny, because `route:list` and `migrate --force` are not the same risk.
 
 An agent writing a migration has never seen your schema. It invents column names, assumes relationships your tables dropped, and reasons about a queue it cannot observe. The result is plausible, confident and wrong.
 
